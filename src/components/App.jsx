@@ -9,7 +9,7 @@ function App() {
     <div>
       <Header />
       {notes.map((term) => (
-        <Note key={term.id} title={term.title} content={term.content} />
+        <Note key={term.key} title={term.title} content={term.content} />
       ))}
       <Footer />
     </div>
